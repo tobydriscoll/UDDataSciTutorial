@@ -508,12 +508,6 @@ git-tree-sha1 = "609b46aca0f1932ab8653464e4194f185f05a864"
 uuid = "2e2323e0-db8b-457b-ae0d-bdfb3bc63afd"
 version = "0.4.4"
 
-[[MLJScikitLearnInterface]]
-deps = ["MLJModelInterface", "PyCall", "ScikitLearn"]
-git-tree-sha1 = "3204b11520cf493fb6c9679773b330f349dec28b"
-uuid = "5ae90465-5518-4432-b9d2-8a1def2f0cab"
-version = "0.1.8"
-
 [[MLJTuning]]
 deps = ["ComputationalResources", "Distributed", "Distributions", "LatinHypercubeSampling", "MLJBase", "MLJModelInterface", "ProgressMeter", "Random", "RecipesBase"]
 git-tree-sha1 = "80f5bdbfc5e215d0882984a4b5885ce42cd6a72f"
@@ -785,18 +779,6 @@ uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
 git-tree-sha1 = "1d3f5f8bdf5dd0c9951eb9c595ee08a728aec331"
 uuid = "321657f4-b219-11e9-178b-2701a2544e81"
 version = "1.1.1"
-
-[[ScikitLearn]]
-deps = ["Compat", "Conda", "DataFrames", "Distributed", "IterTools", "LinearAlgebra", "MacroTools", "Parameters", "Printf", "PyCall", "Random", "ScikitLearnBase", "SparseArrays", "StatsBase", "VersionParsing"]
-git-tree-sha1 = "bf4c558a0d0f1129b23e80f1ca772a9db457df4d"
-uuid = "3646fa90-6ef7-5e7e-9f22-8aca16db6324"
-version = "0.6.3"
-
-[[ScikitLearnBase]]
-deps = ["LinearAlgebra", "Random", "Statistics"]
-git-tree-sha1 = "7877e55c1523a4b336b433da39c8e8c08d2f221f"
-uuid = "6e75b9c4-186b-50bd-896f-2d2496a4843e"
-version = "0.5.0"
 
 [[Scratch]]
 deps = ["Dates"]
