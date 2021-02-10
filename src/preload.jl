@@ -6,6 +6,7 @@ using HTTP
 using MLJ
 using MLJClusteringInterface 
 using MLJMultivariateStatsInterface
+using MLJLinearModels
 using MultivariateStats
 using Plots
 pyplot()
